@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #279f7b;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.regist {
+  height: 420px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+h2 {
+  text-align: center;
+  color: gray;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  margin: 20px;
+}
+
+.icon {
+  padding: 10px;
+  background: #279f7bb3;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  padding: 10px;
+  outline: none;
+  padding: 15px;
+}
+
+.input-field:focus {
+  border: 2px solid #279f7bce;
+}
+
+/* submit button */
+.submit {
+  background-color: #279f7bce;
+  color: white;
+  font-weight: 300;
+  font-size: larger;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  margin: 20px;
+  margin-left: 100px;
+}
+
+.login {
+  background-color: #279f7bce;
+  color: white;
+  font-weight: 300;
+  font-size: larger;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  margin: 20px;
+  margin-left: 100px;
+}
+
+.submit:hover {
+  opacity: 1;
+}
+
+p {
+  color: white;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
